@@ -47,12 +47,12 @@ div{
 
 @media (min-width:668px) and (max-width:991px){
 		div{
-		width:49%;
-		margin-left:0.75%;
-		margin-right:0.75%;
+		width:48%;
+		margin-left:1%;
+		margin-right:1%;
 	}
 		div:last-of-type{
-			width:99.5%;
+			width:98%;
 			margin-top:10px;
 		}
 

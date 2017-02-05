@@ -3,6 +3,7 @@
 }
 .navbar-default .navbar-brand{
 	color:black;
+	font-size:1.8em;
 }
 #nav-list a {
   text-align: center;
@@ -14,4 +15,7 @@
 	height:1000px;
 	background-color:#cc6699;
 	color:black;
+}
+h2{
+	margin-bottom:30px;
 }

@@ -1,0 +1,17 @@
+.navbar-default{
+	background-color:#cc6699;
+}
+.navbar-default .navbar-brand{
+	color:black;
+}
+#nav-list a {
+  text-align: center;
+  background-color:#ffe6b3;
+  color:black;
+  border-bottom:1px solid  #cc6699;
+}
+#content{
+	height:1000px;
+	background-color:#cc6699;
+	color:black;
+}

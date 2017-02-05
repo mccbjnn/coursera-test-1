@@ -12,13 +12,53 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-    <title>Boostrap Starter Page</title>
+    <title>Assignment Week 3</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
   </head>
 <body>
 
-  <h1>Hello Coursera!</h1>
+ <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+       <a class="navbar-brand" href="#">
+        Food,LLC
+      </a> 
+      <button type="button" class=" navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse-menu" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+     <div id="collapse-menu" class="collapse navbar-collapse ">
+           <ul id="nav-list" class="visible-xs nav navbar-nav navbar-right">
+            <li>
+              <a href="#">Chicken</a>
+            </li>
+            <li>
+              <a href="#">Beef</a>
+            </li>
+            <li>
+              <a href="#">Sushi</a>
+            </li>
+          </ul><!-- #nav-list -->
+        </div><!-- .collapse .navbar-collapse -->
+  </div>
+</nav>
+
+  <div class="container">
+    <h1 class="text-center">Our Menu</h1>
+    <div class="row">
+    <div id="content" class=" col-xs-offset-1 col-xs-10 col-sm-offset-0 col-sm-12">
+    <h3 class="text-center">Chicken</h3>
+    <p>
+      Lorem Ipsum este pur şi simplu o machetă pentru text a industriei tipografice. Lorem Ipsum a fost macheta standard a industriei încă din secolul al XVI-lea, când un tipograf anonim a luat o planşetă de litere şi le-a amestecat pentru a crea o carte demonstrativă pentru literele respective. Nu doar că a supravieţuit timp de cinci secole, dar şi a facut saltul în tipografia electronică practic neschimbată. A fost popularizată în anii '60 odată cu ieşirea colilor Letraset care conţineau pasaje Lorem Ipsum, iar mai recent, prin programele de publicare pentru calculator, ca Aldus PageMaker care includeau versiuni de Lorem Ipsum.
+    </p>
+    </div>
+  </div>
+
+
 
   <!-- jQuery (Bootstrap JS plugins depend on it) -->
   <script src="js/jquery-1.11.3.min.js"></script>

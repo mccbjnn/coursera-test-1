@@ -1,3 +1,9 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	position:relative;
+}
 .navbar-default{
 	background-color:#cc6699;
 }
@@ -11,11 +17,19 @@
   color:black;
   border-bottom:1px solid  #cc6699;
 }
-#content{
-	height:1000px;
+.culoare{
+	height:700px;
 	background-color:#cc6699;
 	color:black;
+	position:relative;
+	margin-bottom: 5px;
 }
 h2{
 	margin-bottom:30px;
+}
+
+p a{
+	position:absolute;
+	bottom:0;
+	right:10px;
 }
